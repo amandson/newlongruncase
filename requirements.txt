@@ -1,0 +1,11 @@
+pytest
+pytest-dependency
+pytest-repeat
+pytest-assume
+pytest-html
+pytest-metadata
+pytest-ordering
+PyYAML
+pika
+requests
+setuptools-scm

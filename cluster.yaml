@@ -1,0 +1,7 @@
+redis_cluster:
+    id:
+        #- "cl-v1dbfgum"  
+        - "cl-qwatamn7"  
+rabbimq_cluster:
+    id:
+        - "cl-1nk1q1u0"

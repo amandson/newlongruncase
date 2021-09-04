@@ -1,0 +1,59 @@
+{
+    "cluster": {
+        "name": "RabbitMQ测试不要删",
+        "description": "测试测试不要删",
+        "disc": {
+            "cpu": 2,
+            "memory": 4096,
+            "instance_class": 202,
+            "volume_size": 10,
+            "count": 3
+        },
+        "client": {
+            "cpu": 1,
+            "memory": 1024,
+            "instance_class": 101,
+            "count": 1
+        },
+        "haproxy": {
+            "cpu": 2,
+            "memory": 2048,
+            "instance_class": 101,
+            "volume_size": 10,
+            "count": 2
+        },
+        "vxnet": "vxnet-71dxram",
+        "etcd_service": "cl-k1my87gj",
+        "global_uuid": "17432219872718071"
+    },
+    "version": "appv-spejlhjj",
+    "resource_group": "Prod",
+    "vpc": "rtr-m7nomv0c",
+    "env": {
+        "rabbitmq_default_user": "guest",
+        "rabbitmq_default_pass": "Wm881011",
+        "haproxy_balance_policy": "roundrobin",
+        "haproxy_web_port": 8100,
+        "haproxy_username": "haproxy",
+        "haproxy_password": "haproxy",
+        "num_tcp_acceptors": 10,
+        "handshake_timeout": 10000,
+        "vm_memory_high_watermark": 0.4,
+        "vm_memory_high_watermark_paging_ratio": 0.5,
+        "disk_free_limit": 524288000,
+        "frame_max": 131072,
+        "channel_max": 0,
+        "heartbeat": 60,
+        "collect_statistics": "none",
+        "collect_statistics_interval": 5000,
+        "cluster_partition_handling": "pause_minority",
+        "hipe_compile": false,
+        "cluster_keepalive_interval": 10000,
+        "background_gc_target_interval": 60000,
+        "background_gc_enabled": false,
+        "reverse_dns_lookups": false,
+        "tracing_user": "guest",
+        "proxy_protocol": false,
+        "web_console_enabled": true
+    }
+}

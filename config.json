@@ -1,0 +1,21 @@
+{
+	"access_key_id": "HEHYLNIKVMQLUQMBBZYD",
+	"secret_access_key": "AFt3dkVdmjpnb73VHA1erhF8hPjhAWagtqQ0qdFa",
+    "zone": "pek3a",
+	"cluster": {
+		"cluster-a": "cl-sthe73bi",
+		"cluster-b": "cl-2tjsvcni",
+		"cluster-a-wvip": "139.198.6.224",
+		"cluster-b-wvip": "192.168.0.252",
+		"cluster_user": "default",
+		"cluster_passwd":  "Wf123"
+	},
+	"vpc": {
+		"vpc-id": "rtr-rb7z2ky8",
+		"vxnet": {
+			"vxnet-a": "vxnet-6350yyd",
+			"vxnet-b": "vxnet-e3ik603"
+		}
+	}
+}
+
