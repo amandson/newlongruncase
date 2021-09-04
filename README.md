@@ -32,7 +32,7 @@
 
 ### 安装
 在vpc上的某台主机上安装python以及相关的包
-1. 安装pip包 （注意pip版本，测试代码基于 Python2.7 ）  
+1. 安装pip包 （注意pip版本，测试代码基于 Python3.6 ）  
 ```
 	pip install -r requirements.txt
 ```
